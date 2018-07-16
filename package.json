@@ -1,0 +1,24 @@
+{
+  "name": "cube-arc-layer",
+  "version": "1.0.0",
+  "scripts": {
+    "start-local": "webpack-dev-server --env.local --progress --hot --port 3030 --open",
+    "start": "webpack-dev-server --progress --hot --port 3030 --open",
+    "build": "NODE_ENV=production webpack --env.prod=true"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@turf/turf": "^4.7.3",
+    "deck.gl": "^5.3.1",
+    "luma.gl": "^5.3.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-map-gl": "^3.3.0-alpha.4"
+  },
+  "devDependencies": {
+    "babel-runtime": "^6.26.0",
+    "buble-loader": "^0.4.0",
+    "webpack": "^2.2.0",
+    "webpack-dev-server": "^2.2.0"
+  }
+}
